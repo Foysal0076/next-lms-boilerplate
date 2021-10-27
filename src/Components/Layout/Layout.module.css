@@ -1,0 +1,17 @@
+#pageContainer {
+    position: 'relative';
+    min-height: '100vh'
+}
+
+#contentWrap {
+    /* Footer height */
+    padding-bottom: 200px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Footer height */
+    height: 200px;
+}

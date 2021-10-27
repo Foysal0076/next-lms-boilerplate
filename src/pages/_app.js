@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import '../styles/globals.css'
+import Layout from '../Components/Layout/Layout'
 
 function MyApp({ Component, pageProps }) {
 
@@ -9,7 +10,9 @@ function MyApp({ Component, pageProps }) {
                 {/* Any SEO data, + others */}
                 <meta name="description" content="A boilerplate to develop modern learning management system" />
             </Head>
-            <Component {...pageProps} />
+            <Layout>
+                <Component {...pageProps} />
+            </Layout>
         </>
     )
 }
