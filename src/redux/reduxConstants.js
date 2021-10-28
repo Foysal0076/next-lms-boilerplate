@@ -1,0 +1,6 @@
+export const LOGIN_USER = 'LOGIN_USER'
+export const REGISTER_USER = 'REGISTER_USER'
+export const LOGOUT_USER = 'LOGOUT_USER'
+
+export const FETCH_USER_INFO = 'FETCH_USER_INFO'
+export const UPDATE_USER_INFO = 'UPDATE_USER_INFO'
