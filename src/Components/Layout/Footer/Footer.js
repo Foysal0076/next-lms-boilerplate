@@ -8,4 +8,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default React.memo(Footer) //*React.memo will prevent unnecessary renders when its parent Component will re-render

@@ -8,4 +8,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default React.memo(Navbar) //*React.memo will prevent unnecessary renders when its parent Component will re-render
