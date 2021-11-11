@@ -2,14 +2,14 @@ import React from 'react'
 import Blog from './Blog/Blog'
 import SingleBlogPageBanner from './SingleBlogPageBanner/SingleBlogPageBanner'
 
-const BlogBlock = () => {
+const BlogBlock = ({blog}) => {
     return (
         <div>
             {/* Sub Components will go here */}
             {/* Page Banner */}
             <SingleBlogPageBanner />
             {/* Blog Content */}
-            <Blog />
+            <Blog blog={blog}/>
         </div>
     )
 }
