@@ -1,0 +1,14 @@
+.cardContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.image {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.cardContentContainer {
+    padding: 1rem;
+}
